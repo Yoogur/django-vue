@@ -19,19 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b93a451-cac6-4b18-a39f-6ea70f2f46be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/init.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start/init.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start/mysqlclient-1.4.6-cp38-cp38-win32.whl" afterDir="false" />
+    <list default="true" id="5b93a451-cac6-4b18-a39f-6ea70f2f46be" name="Default Changelist" comment="添加脚本">
+      <change afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/启服脚本/startserver.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/工具/MySQL-python-1.2.3.win-amd64-py2.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/工具/VSCodeSetup-x64-1.24.0-insider.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/工具/mysql-5.5.60-winx64.msi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/工具/python-2.7.15.amd64.msi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/新手指引.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/新手教程.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/模块说明.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/mypage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +61,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web01/settings.py" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,8 +149,30 @@
       <workItem from="1601828496999" duration="881000" />
       <workItem from="1601829850398" duration="469000" />
       <workItem from="1601886794965" duration="291000" />
-      <workItem from="1601887087963" duration="1071000" />
+      <workItem from="1601887087963" duration="2379000" />
     </task>
+    <task id="LOCAL-00001" summary="添加脚本">
+      <created>1601888492526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601888492526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加脚本">
+      <created>1601888523661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601888523661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加脚本">
+      <created>1601888547310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601888547310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,24 +191,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="添加脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加脚本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="111" key="#Inspections" timestamp="1601744850529">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="364" y="111" key="#Inspections/0.0.1474.864@0.0.1474.864" timestamp="1601744850529" />
-    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601743113224">
+    <state x="192" y="87" width="1089" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601889008880">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1601743113224" />
+    <state x="192" y="87" width="1089" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1601889008880" />
     <state x="485" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601824154684">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="485" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1474.864@0.0.1474.864" timestamp="1601824154684" />
-    <state x="512" y="173" key="FileChooserDialogImpl" timestamp="1601887084678">
+    <state x="512" y="173" key="FileChooserDialogImpl" timestamp="1601888995872">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="512" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1601887084678" />
+    <state x="512" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1601888995872" />
     <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1601830324213">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -211,10 +227,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1601830324208" />
-    <state x="239" y="77" key="SettingsEditor" timestamp="1601829380197">
+    <state x="239" y="77" key="SettingsEditor" timestamp="1601889008273">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="239" y="77" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1601829380197" />
+    <state x="239" y="77" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1601889008273" />
+    <state x="330" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601888554309">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="330" y="165" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1601888554309" />
+    <state x="93" y="93" width="1288" height="678" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601888910397">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="93" y="93" width="1288" height="678" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1474.864@0.0.1474.864" timestamp="1601888910397" />
     <state x="437" y="30" width="600" height="804" key="find.popup" timestamp="1601826682836">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

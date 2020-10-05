@@ -1,8 +1,5 @@
-from django.http import JsonResponse
-
+from django.shortcuts import render
 
 
 def IndexPrint(request):
-    results = {}
-    results["hello"] = "Hello World"
-    return JsonResponse(results)
+    return render(request, "app/templates/mypage.html")
