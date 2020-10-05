@@ -1,7 +1,6 @@
-from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 
-from server.tool.response_handler import simple_response, packet_response, err_response
+from server.tool.response_handler import simple_response, fail_response, success_response
 from server.user.model import User
 
 
@@ -11,13 +10,11 @@ def user_register(request):
     content = request.POST
     username, nickname, password = content.get("username"), content.get("nickname"), content.get("password")
     if User.objects.filter(username=username):
-        response = packet_response(False, "has such username")
-        return response
+        return fail_response("has such username")
     user = User()
     user.Config(username, nickname, password)
     user.save()
-    response = packet_response(True, "success")
-    return response
+    return success_response("success register")
 
 
 @require_http_methods(["GET"])
@@ -25,15 +22,13 @@ def user_register(request):
 def user_login(request):
     content = request.GET
     username, password = content.get("username"), content.get("password")
+
     if not username or not password:
-        response = packet_response(False, "username or password is null")
-        return response
+        return fail_response("username or password is null")
     if not User.objects.filter(username=username):
-        response = packet_response(False, "username or password is error")
-        return response
+        return fail_response("username or password is error")
     user = User.objects.get(username=username)
     if not user.password == password:
-        response = packet_response(False, "username or password is error")
-        return response
-    response = packet_response(False, "success login")
-    return response
+        return fail_response("username or password is error")
+
+    return success_response("success login")

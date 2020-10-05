@@ -16,9 +16,16 @@ def simple_response(func):
     return handle
 
 
-def packet_response(bResult, sMsg=""):
+def success_response(sMsg=""):
     response = {}
-    response['result'] = bResult
+    response['result'] = True
+    response['msg'] = sMsg
+    return response
+
+
+def fail_response(sMsg=""):
+    response = {}
+    response['result'] = False
     response['msg'] = sMsg
     return response
 
