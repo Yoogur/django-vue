@@ -16,15 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b93a451-cac6-4b18-a39f-6ea70f2f46be" name="Default Changelist" comment="添加脚本">
-      <change afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/mypage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.py" afterDir="false" />
-    </list>
+    <list default="true" id="5b93a451-cac6-4b18-a39f-6ea70f2f46be" name="Default Changelist" comment="添加忽略文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +44,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="190c3f93-3b5c-4cb6-aca9-c73a503a384c" />
@@ -149,7 +163,7 @@
       <workItem from="1601828496999" duration="881000" />
       <workItem from="1601829850398" duration="469000" />
       <workItem from="1601886794965" duration="291000" />
-      <workItem from="1601887087963" duration="2379000" />
+      <workItem from="1601887087963" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="添加脚本">
       <created>1601888492526</created>
@@ -172,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601888547310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改启服脚本">
+      <created>1601889755281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601889755281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加忽略文件">
+      <created>1601890036579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890036579</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +211,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -192,7 +237,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="添加脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加脚本" />
+    <MESSAGE value="修改启服脚本" />
+    <MESSAGE value="添加忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="111" key="#Inspections" timestamp="1601744850529">
@@ -207,38 +254,46 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="485" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1474.864@0.0.1474.864" timestamp="1601824154684" />
+    <state x="141" y="69" key="DiffContextDialog" timestamp="1601889764703">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="141" y="69" key="DiffContextDialog/0.0.1474.864@0.0.1474.864" timestamp="1601889764703" />
     <state x="512" y="173" key="FileChooserDialogImpl" timestamp="1601888995872">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="512" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1601888995872" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1601830324213">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1601889773881">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1601830324213" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1601830324208">
+    <state width="1431" height="224" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1601889773881" />
+    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1601889773880">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1601830324208" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1601830324208">
+    <state width="1431" height="224" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1601889773880" />
+    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1601889773880">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1601830324208" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1601830324208">
+    <state width="1431" height="224" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1601889773880" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1601889773881">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1601830324208" />
+    <state width="1431" height="224" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1601889773881" />
     <state x="239" y="77" key="SettingsEditor" timestamp="1601889008273">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="239" y="77" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1601889008273" />
-    <state x="330" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601888554309">
+    <state x="330" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601889767078">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="330" y="165" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1601888554309" />
+    <state x="330" y="165" key="Vcs.Push.Dialog.v2/0.0.1474.864@0.0.1474.864" timestamp="1601889767078" />
     <state x="93" y="93" width="1288" height="678" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601888910397">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="93" y="93" width="1288" height="678" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1474.864@0.0.1474.864" timestamp="1601888910397" />
+    <state x="542" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601889786273">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="542" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1601889786273" />
     <state x="437" y="30" width="600" height="804" key="find.popup" timestamp="1601826682836">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
