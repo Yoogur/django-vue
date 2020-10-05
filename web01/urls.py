@@ -22,8 +22,8 @@ from server.user.view import user_register, user_login
 
 urlpatterns = [
     path('', index.IndexPrint),
-    path("register", user_register, ),
-    path('login', user_login),
+    path("register/userReg", user_register, ),
+    path('login/userLogin', user_login),
     url(r'add_post$', add_post, ),
 
 ]
