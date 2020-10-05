@@ -1,72 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b93a451-cac6-4b18-a39f-6ea70f2f46be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/mypage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/.idea/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/clientsocket/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/clientsocket/clientobject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/clientsocket/defines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/clientsocket/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/commandctrl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/commandctrl/defines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/commandctrl/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/dbctrl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/dbctrl/defines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/dbctrl/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/dbctrl/saveobject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/mutexlock/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/mutexlock/defines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/mutexlock/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/pubcore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/pubdefines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/pubglobalmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/serverinit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/timecontrol/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/timecontrol/defines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/code/timecontrol/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/migrations/0002_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/post/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/post/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/post/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/user/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/user/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/启服脚本/startserver.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/工具/MySQL-python-1.2.3.win-amd64-py2.7.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/工具/VSCodeSetup-x64-1.24.0-insider.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/工具/mysql-5.5.60-winx64.msi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/工具/python-2.7.15.amd64.msi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/新手指引.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/新手教程.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/模块说明.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web01/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start/init.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start/mysqlclient-1.4.6-cp38-cp38-win32.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/启服脚本/startserver.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/工具/MySQL-python-1.2.3.win-amd64-py2.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/工具/VSCodeSetup-x64-1.24.0-insider.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/工具/mysql-5.5.60-winx64.msi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/工具/python-2.7.15.amd64.msi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/新手指引.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/新手教程.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/模块说明.doc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +55,15 @@
   </component>
   <component name="JupyterTrust" id="190c3f93-3b5c-4cb6-aca9-c73a503a384c" />
   <component name="ProjectId" id="1iN8sqaOSWWumDBC2IPccWyWOfn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -188,11 +156,27 @@
       <workItem from="1601824171624" duration="4276000" />
       <workItem from="1601828496999" duration="881000" />
       <workItem from="1601829850398" duration="469000" />
+      <workItem from="1601886794965" duration="291000" />
+      <workItem from="1601887087963" duration="1071000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="111" key="#Inspections" timestamp="1601744850529">
@@ -207,10 +191,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="485" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1474.864@0.0.1474.864" timestamp="1601824154684" />
-    <state x="512" y="173" key="FileChooserDialogImpl" timestamp="1601828412606">
+    <state x="512" y="173" key="FileChooserDialogImpl" timestamp="1601887084678">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="512" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1601828412606" />
+    <state x="512" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1601887084678" />
     <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1601830324213">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
