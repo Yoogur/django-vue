@@ -1,8 +1,8 @@
 <template>
   <div>
     <p>home</p>
-    <router-link to="/login">登录</router-link>
-    <router-link to="/register">注册</router-link>
+    <router-link to="/Login">登录</router-link>
+    <router-link to="/Register">注册</router-link>
   </div>
 </template>
 

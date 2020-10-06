@@ -1,11 +1,16 @@
 <template>
   <div>
     <button @click="register">注册</button>
+    <common-form></common-form>
   </div>
 </template>
 
 <script>
+import CommonForm from '../components/CommonForm'
 export default {
+  components: {
+    CommonForm,
+  },
   methods: {
     register() {
       this.$http
