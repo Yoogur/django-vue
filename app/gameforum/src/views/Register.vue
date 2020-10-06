@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="register">注册</button>
+    <el-button @click="register">注册</el-button>
     <common-form></common-form>
   </div>
 </template>
