@@ -116,6 +116,7 @@ export default {
     }
   }
 }
+// 注释
 </script>
 
 <style lang="stylus" scoped>
