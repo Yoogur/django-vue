@@ -10,7 +10,7 @@
         :rules="rules"
         class="form"
       >
-        <el-button @click="register" type="primary">注册</el-button>
+        <el-button @click="register" type="primary" style="width:100%">注册</el-button>
       </common-form>
     </el-card>
   </el-row>
