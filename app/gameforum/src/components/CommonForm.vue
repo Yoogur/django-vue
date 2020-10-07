@@ -2,16 +2,22 @@
   <el-form
     :model="form"
     ref="form"
-    label-width="60px"
+    :rules="rules"
+    label-width="80px"
     :inline="inline"
     label-position="right"
+    status-icon
   >
     <el-form-item
       :label="item.label"
       v-for="item in formLabel"
       :key="item.model"
+      :prop="item.model"
     >
-      <el-input v-if="!item.type" v-model="form[item.model]" autocomplete="off"></el-input>
+      <el-input
+        v-if="!item.type"
+        v-model="form[item.model]"
+      ></el-input>
       <el-input
         v-if="item.type === 'password'"
         :type="item.type"
@@ -30,6 +36,7 @@ export default {
   props: {
     form: Object,
     formLabel: Array,
+    rules: Object,
     inline: Boolean
   }
 }
