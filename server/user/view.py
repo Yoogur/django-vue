@@ -37,7 +37,7 @@ def user_login(request):
 @require_http_methods(["PUT"])
 @simple_response
 def user_modify(request):
-    content = request.GET
+    content = request.POST
     username = content.get("username")
     if not username:
         return fail_response("username is null")
