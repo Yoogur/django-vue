@@ -18,12 +18,14 @@ from django.urls import path
 
 from server import index
 from server.post.view import add_post
-from server.user.view import user_register, user_login
+from server.user.view import *
 
 urlpatterns = [
     path('', index.IndexPrint),
-    path("register/userReg", user_register, ),
+    path("register/userReg", user_register),
     path('login/userLogin', user_login),
+    path('modify/userModify', user_modify),
+    path('get/userGet', user_get),
     url(r'add_post$', add_post, ),
 
 ]
