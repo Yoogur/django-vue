@@ -11,7 +11,7 @@ export default {
   methods: {
     login() {
       this.$http
-        .get('http://127.0.0.1:8000/login/userLogin', {
+        .get('http://127.0.0.1:8000/user/login', {
           params: { username: 'gayu', password: 1234567 }
         })
         .then(res => {

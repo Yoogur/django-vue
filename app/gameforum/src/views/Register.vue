@@ -101,7 +101,7 @@ export default {
   methods: {
     register() {
       this.$http
-        .post('http://127.0.0.1:8000/register/userReg', this.registerForm)
+        .post('http://127.0.0.1:8000/user/register', this.registerForm)
         .then(res => {
           console.log(res.data)
           if (res.data.result) {
