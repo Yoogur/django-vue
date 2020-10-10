@@ -1,11 +1,20 @@
 <template>
-  <div>
-    <p>home</p>
-    <router-link to="/Login">登录</router-link>
-    <router-link to="/Register">注册</router-link>
-  </div>
+    <el-container>
+      <el-header><common-header></common-header></el-header>
+      <el-main>Main</el-main>
+    </el-container>
 </template>
 
 <script>
-export default {}
+import CommonHeader from '../components/CommonHeader'
+export default {
+  components: {
+    CommonHeader
+  }
+}
 </script>
+
+<style lang="stylus" scoped>
+.el-header
+    padding 0px
+</style>

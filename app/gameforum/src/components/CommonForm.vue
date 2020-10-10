@@ -3,9 +3,9 @@
     :model="form"
     ref="form"
     :rules="rules"
-    label-width="80px"
     :inline="inline"
     label-position="right"
+    label-width="80px"
     status-icon
   >
     <el-form-item
@@ -14,10 +14,7 @@
       :key="item.model"
       :prop="item.model"
     >
-      <el-input
-        v-if="!item.type"
-        v-model="form[item.model]"
-      ></el-input>
+      <el-input v-if="!item.type" v-model="form[item.model]"></el-input>
       <el-input
         v-if="item.type === 'password'"
         :type="item.type"
